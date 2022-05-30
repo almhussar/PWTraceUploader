@@ -11,5 +11,8 @@ The **PWTraceUploader** is an **Azure DevOps Extension** which - as its name imp
 - **TestResultFileDirectory**: The path of directory where the Playwright test results' xml files will be created. In general, it's the same directory which contains the Playwright tests in a default configuration.
 
 ## Known limits
-- Currently it works with **TypeScript** based tests only
+- Tested on **Azure DevOps Server** only
+  - Azure DevOps Services use different API version (it would be great to implement for this...)
+- Tested with **TypeScript** based tests only
+
 
